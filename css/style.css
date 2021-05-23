@@ -1,0 +1,119 @@
+
+.header {
+
+	background-color: #743ba3;
+	color: white;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background-image: url('https://i.redd.it/gpjczcmghyj11.png');
+
+}
+
+.content{
+background-color: #a33ba0;
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 3px 7px 15px black;	
+	background-image: url('https://vestikavkaza.ru/upload/2016-06-24/57ce1e8f92c23bb58e14c9530d9c4ebd.jpg');
+}
+
+.footer {
+
+	background-color:#a33b79;
+	color: white;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	box-shadow: -9px -11px 11px 4px rgba(253, 63, 248, 0.19);
+	background-image: url('https://images6.alphacoders.com/787/787667.jpg');
+
+}
+
+
+
+.posts{
+
+   display: flex;	
+}
+
+.box{
+
+     background-color: black;
+     padding: 15px;
+     margin: 10px;
+     border: 2px solid white;
+     box-shadow: 3px 7px 15px black;
+    flex-grow: 1; 
+
+}
+
+
+.box img{
+
+width: 100%;
+border: 2px solid white;
+box-shadow: 3px 7px 15px black;
+max-width: 500px;
+max-height: 400px;
+}
+
+.box p{
+	color: red;
+}
+
+.box h2{
+	color: blue;
+	box-shadow: -10px -3px 8px 3px rgba(255, 255, 255, 0.2);
+}
+
+.box h1{
+	color: green;
+}
+
+.flleft{
+
+float: left;
+}
+
+.menu{
+
+	background-color: black;
+}
+
+.menu ul{
+
+	list-style: none;
+	color:white;
+	text-align: center;
+}
+
+.menu li{
+display: inline-block;
+padding: 25px 50px;
+
+}
+
+.menu li:hover{
+display: inline-block;
+padding: 25px 50px;
+
+}
+
+.menu li:hover{
+background-color: black;
+color: red;
+
+}
+
+.box img:hover{
+display: inline-block;
+padding: 25px 50px;
+
+}
+.box img:hover{
+padding: 30px;
+     margin: 15px;	
+}
